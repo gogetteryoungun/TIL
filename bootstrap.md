@@ -1,7 +1,7 @@
 ## 1. Media Query
 
-Bootstrap supports Mobile-first as default therefore any definition not included in
-**Media Query** is for devices with 768px or below.
+Bootstrap supports Mobile-first as default therefore any definition
+not included in **Media Query** is for devices with 768px or below.
 
 There are 4 breakpoints.
 
@@ -34,13 +34,14 @@ Bootstrap has to have a container(wrapper) because it's a grid-based system.
 
 2 containers **CANNOT** be nested lest padding gets mesed up.
 
-## 2.1 Fixed Width Container (Responsive Fixed Layout)
+  ### 2.1 Fixed Width Container (Responsive Fixed Layout)
 
 It's used when Responsive Fixed Layout is needed. It responds to Media Query and within the same breakpoint, it has the fixed width even if viewport width expands or shrinks.
 
-## 2.2 Full Width Container (Fluid Layout)
+  ### 2.2 Full Width Container (Fluid Layout)
 
 Unlike fixed width container, it's used to create fluid layout. Regardless of the viewport, contents max out on the screen.
+
 
 ```CSS
 .container-fluid {
@@ -50,6 +51,7 @@ Unlike fixed width container, it's used to create fluid layout. Regardless of th
   margin-left: auto;
 }
 ```
+
 ```HTML
 <!DOCTYPE html>
 <html>
