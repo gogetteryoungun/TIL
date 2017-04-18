@@ -1,5 +1,5 @@
 ## 1. Document Object Model
----
+
 
 When a browser loads a file, it creates DOM. DOM is an API for valid HTML and well-formed XML documents. It defines the logical structure of specification. With DOM, programmers can build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML or XML document can be accessed, changed, deleted or added using DOM.
 
@@ -20,7 +20,7 @@ DOM provides the following two features.
   In order to manipulate the content of a webpage, we need to access DOM, and select the attribute to modify, then use innerHTML in JavaScript.
 
 ## 2. DOM Query
----
+
 
   1. Selecting one element
 

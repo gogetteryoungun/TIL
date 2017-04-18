@@ -18,6 +18,6 @@
   + button
 
 
-## inline-block
+## 2. inline-block
 
 This property has characteristics of both block and inline. width, height, margin can be manually set, and multiple inline-block elements can be in the same row.
